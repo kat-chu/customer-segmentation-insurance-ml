@@ -160,26 +160,31 @@ ownership variables (columns 44–86) reflect individual customer behavior.
   KMeans, PCA, StandardScaler)
 
 ## Files
-├── customer_segmentation_insurance_analysis.ipynb   # Full analysis notebook
-├── customer_segmentation_insurance_narrative.pdf    # Project narrative
-└── data/
-├── ticdata2000.txt      # Training data (5,822 records)
-├── ticeval2000.txt      # Evaluation data (4,000 records)
-├── tictgts2000.txt      # Evaluation targets
-├── TicDataDescr.txt     # Full data description
-└── dictionary.txt       # Variable data dictionary
-└── images/
-├── sociodemographic_distributions.png
-├── insurance_product_distributions.png
-├── sociodemographic_boxplots.png
-├── insurance_product_boxplots.png
-├── correlation_heatmap.png
-├── bivariate_scatter_plots.png
-├── regression_residual_diagnostics.png
-├── logistic_regression_evaluation.png
-├── elbow_method.png
-├── pca_clusters.png
-└── random_forest_evaluation.png
+**Root**
+- `customer_segmentation_insurance_analysis.ipynb` — Full analysis notebook
+- `project_narrative.pdf` — Written narrative
+- `README.md` — Project documentation
+- `.gitignore` — Excludes system files
+
+**data/**
+- `ticdata2000.txt` — Training data (5,822 records)
+- `ticeval2000.txt` — Evaluation data (4,000 records)
+- `tictgts2000.txt` — Evaluation targets
+- `TicDataDescr.txt` — Full data description
+- `dictionary.txt` — Variable data dictionary
+
+**images/**
+- `sociodemographic_distributions.png`
+- `insurance_product_distributions.png`
+- `sociodemographic_boxplots.png`
+- `insurance_product_boxplots.png`
+- `correlation_heatmap.png`
+- `bivariate_scatter_plots.png`
+- `regression_residual_diagnostics.png`
+- `logistic_regression_evaluation.png`
+- `elbow_method.png`
+- `pca_clusters.png`
+- `random_forest_evaluation.png`
 
 ## Reference
 
